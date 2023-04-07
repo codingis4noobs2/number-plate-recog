@@ -10,7 +10,7 @@ import pandas as pd
 file_path = 'violations.xls'
 df = pd.read_excel(file_path)
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'tesseract.exe'
 
 st.set_page_config(layout="wide", page_title="Number Plate Detection And Recognition")
 
